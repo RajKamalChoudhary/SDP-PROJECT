@@ -8,7 +8,7 @@ let array = [];
 
 function generateArray() {
   array = [];
-  for (let i = 1; i < 50; i++) {
+  for (let i = 1; i < 45; i++) {
     array.push(Math.floor(Math.random() * 200));
   }
   displayArray();
